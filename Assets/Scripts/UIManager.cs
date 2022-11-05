@@ -33,7 +33,10 @@ public class UIManager : MonoBehaviour
     {
         foreach (GameObject go in _physicalButtonVRManager._vrButtonsList)
         {
-            go.GetComponentInChildren<PhysicalButtonVR>()._onVRButtonPress.RemoveListener(SetSpawnsedObjectCounterText);
+            if (go != null)
+            {
+                go.GetComponentInChildren<PhysicalButtonVR>()._onVRButtonPress.RemoveListener(SetSpawnsedObjectCounterText);
+            }
         }
     }
 

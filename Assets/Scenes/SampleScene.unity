@@ -1968,7 +1968,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   xAngle: 0
-  yAngle: 2
+  yAngle: 15
   zAngle: 0
   debuggingIsActive: 0
 --- !u!1 &731278798
